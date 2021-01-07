@@ -1,0 +1,53 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:prettier/recommended", "airbnb"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "prettier", "jsx-a11y"],
+  "rules": {
+    "arrow-body-style": "off",
+    "class-methods-use-this": ["warn"],
+    "comma-dangle": ["error", "only-multiline"],
+    "consistent-return": "off",
+    "global-require": "off",
+    "import/no-dynamic-require": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "max-len": "off",
+    "no-console": "off",
+    "no-trailing-spaces": "warn",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "warn",
+    "prettier/prettier": "warn",
+    "react/destructuring-assignment": "warn",
+    "react/display-name": ["warn"],
+    "react/jsx-indent": [2, 2],
+    "react/jsx-key": ["warn"],
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prefer-stateless-function": "warn",
+    "react/prop-types": "warn",
+    "react/require-default-props": "warn",
+    "semi": "off",
+    "radix": "off",
+    "jsx-a11y/click-events-have-key-events": "warn",
+    "no-lonely-if": "warn",
+    "camelcase": "warn",
+    "prefer-destructuring": "warn",
+    "jsx-a11y/aria-role": "warn",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ]
+  }
+}
