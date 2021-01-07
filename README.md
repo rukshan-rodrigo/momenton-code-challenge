@@ -25,7 +25,7 @@ Please start off by cloning this repo to your local folder and installing depend
 
     $ git clone https://github.com/rukshan-rodrigo/momenton-code-challenge
     $ cd App
-    $ yarn start
+    $ yarn && yarn start
 
 ## 🧪 Testing
 
