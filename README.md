@@ -23,7 +23,7 @@ For development you will need to make sure that you have a few things installed.
 
 Please start off by cloning this repo to your local folder and installing dependencies:
 
-    $ git clone <repo clone link>
+    $ git clone https://github.com/rukshan-rodrigo/momenton-code-hallenge
     $ cd App
     $ yarn start
 
